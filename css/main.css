@@ -1,0 +1,333 @@
+/*body {
+    font-family: 'Scada', sans-serif;
+}*/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+*{
+margin:0;
+padding:0;
+}
+
+#back {
+    background: url(../images/back-vert.png) left repeat-x;
+	width: 100%;
+	height: 633px;
+	border-bottom: solid 4px #ddd9da;	
+   }
+#backgray {
+     background: #c1bebe;
+  	 width: 100%;
+	 height: 138px;
+}
+.backgray {
+      	 width: 960px;
+         margin: 0 auto;
+}
+
+
+.main {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  
+  /*overflow: hidden;*/
+}
+.header {
+ width: 100%; 
+ border-bottom: solid 2px black;
+}
+
+.logo {
+  float: left;
+  margin-top: 65px;
+}
+
+.contacts {
+  float: right;
+  width: 165px;
+  height: 96px;  
+  margin: 35px 50px 0 0;
+}
+.contact {
+  height: 32px;
+  
+}
+.contact_img {
+ margin-right: 10px;
+ float: left;
+}
+
+.contact_text {
+  line-height: 32px;
+}
+
+.content {    
+}
+
+.title_chair {
+  width: 960px;
+  text-align: center;
+  line-height: 65px; 
+  position: relative; 
+}
+
+.benefits_left {
+  width: 250px;  
+ float: left;
+ 
+}
+.ben{
+  text-align: center;
+}
+.ben_size {
+  height: 216px;
+}
+.ben_img {
+    margin: 20px auto 10px;     
+}
+/*.ben_text {
+  text-align: center;  
+}*/
+.chair {
+  width: 460px;  
+  float: left;
+/*  margin-left: 216px;*/
+/*  margin-top: -393px;*/
+/*  position: relative;*/
+}
+.chair_pos {
+    margin-left: 45px;
+    margin-top: 5px;
+}
+.prise_pos {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.batton_pos {
+    position: absolute;
+    margin-top: 388px;
+    margin-left: 114px;
+    }
+.batton_pos:hover {
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 3px 3px rgba(22, 22, 150, 0.3);
+    box-shadow: 0px 0px 3px 3px rgba(22, 22, 150, 0.3);
+    cursor: pointer;
+}
+
+ .characters {
+  float: left;
+  width: 200px;
+  height: 138px;  
+  margin-left: 115px;
+  }
+  .characters_right {
+  float: left;
+  width: 250px;
+  height: 138px;  
+  margin-left: 25px;
+ 
+  }
+
+.character {
+   height: 46px;   
+}  
+
+.character_img {
+ margin-right: 10px;
+ float: left;
+}
+
+.character_text {
+  line-height: 46px;
+}
+
+.colors {
+    width: 300px;
+    float: left;
+    padding-top: 60px;
+}
+   
+.color {
+    float:left;
+    background: url(../images/colors-sprite.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    margin: 20px 9px;
+}  
+.color:hover{
+    width: 50px;
+    height: 50px;
+    margin: 10px -1px;
+    cursor: pointer;
+}
+    
+.c_orang{
+    background-position: -10px -10px;
+}
+.c_orang:hover {
+    background-position: 0 -50px;
+}   
+.c_yellow {
+    background-position: -60px -10px;      
+}
+.c_yellow:hover {
+    background-position: -50px -50px;      
+}
+.c_red {
+    background-position: -110px -10px;      
+}
+.c_red:hover {
+    background-position: -100px -50px; 
+}
+.c_green {
+    background-position: -160px -10px;      
+}
+.c_green:hover {
+    background-position: -150px -50px; 
+}
+.c_blue {
+    background-position: -210px -10px;      
+}
+.c_blue:hover {
+    background-position: -200px -50px; 
+}
+.c_purple {
+    background-position: -260px -10px;      
+}
+.c_purple:hover {
+    background-position: -250px -50px; 
+}
+#backfoot {
+        background: url(../images/foot_pat.png) left repeat;
+    	width: 100%;
+	}
+
+
+.links {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 70px;
+} 
+.links ul {
+    list-style-type: none;
+    font-weight: bold;
+   }
+   
+.links ul li {
+    padding: 10px 0;
+    }
+    
+.links ul li a {
+    text-decoration: none;
+    color: white; 
+    }    
+.links ul li a:hover {
+    color: #acaaaa; 
+    }     
+    
+.pay_ico {
+    height: 60px;
+    margin-left: 70px;   
+    padding-bottom: 20px;
+       }  
+       
+.pay {
+    float:left;
+    background: url(../images/cocial-sprite.png) no-repeat;
+    height: 60px;
+    margin-left: 15px; 
+    } 
+    
+.mc_ico{
+    width: 90px;
+    background-position: 0 0;
+    margin-left: 0;
+    }
+    
+.mc_ico:hover {
+    background-position: 0 -60px;
+    margin-left: 0;
+}
+.visa_ico{
+    width: 90px;
+    background-position: -90px 0;
+   
+    }
+.visa_ico:hover {
+    background-position: -90px -60px;
+}
+
+.yand_ico{
+    width: 55px;
+    background-position: -180px 0;
+   
+    }
+.yand_ico:hover {
+    background-position: -180px -60px;
+}
+
+.web_ico{
+    width: 58px;
+    background-position: -235px 0;
+   
+    }
+.web_ico:hover {
+    background-position: -235px -60px;
+}
+
+.f_ico{
+    width: 60px;
+    background-position: -294px 0;
+    margin-left: 300px;
+    }
+    
+.f_ico:hover {
+    background-position: -294px -60px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+.tw_ico {
+    width: 60px;
+    background-position: -355px 0;
+  
+    }
+    
+.tw_ico:hover {
+    background-position: -355px -60px;
+    cursor: pointer;
+    
+}
+.g_ico {
+    width: 60px;
+    background-position: -415px 0;
+  
+    }
+    
+.g_ico:hover {
+    background-position: -415px -60px;
+    cursor: pointer;
+    
+}
